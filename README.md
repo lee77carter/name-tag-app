@@ -1,7 +1,7 @@
 Name Tag App
 ==========
 
-![image-tag](img/name-tag-app.png)
+![image-tag](name-tag-app.png)
 Live app [here](https://name-tag-app.netlify.app/)
 
 # Getting Started with Create React App
