@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Add Name Input */
+input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+input[type="text"] {
+  width: 200px;
+}
+
+.name-tag {
+  background-color: red;
+  padding: 10px 0 20px;
+  border-radius: 20px;
+  width: 350px;
+  margin: 20px 10px;
+  display: inline-block;
+  position: relative;
+}
+.title {
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
+.subtitle {
+  color: white;
+  margin: 0;
+}
+.name {
+  background-color: white;
+  margin: 10px 0;
+  font-size: 60px;
+  height: 90px;
+  font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+}
+.name-tag__delete {
+  position: absolute;
+  padding: 5px 8px;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.name-tag__delete:hover {
+  background-color: rgb(0, 128, 0);
+  border-radius: 50%;
+}
